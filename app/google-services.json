@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "629066624752",
+    "firebase_url": "https://medsys-fd4a6.firebaseio.com",
+    "project_id": "medsys-fd4a6",
+    "storage_bucket": "medsys-fd4a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629066624752:android:d59e75f4a2e49026",
+        "android_client_info": {
+          "package_name": "com.blazingapps.asus.medsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629066624752-475eklv8qe5n7dut7s20ubmu6q1jr9u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blazingapps.asus.medsys",
+            "certificate_hash": "b7f2dcf8046442d7d287a1f97eaadea8270835e4"
+          }
+        },
+        {
+          "client_id": "629066624752-v9gut2vjhlljmat2nk5r5vk3kg84lj30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjwSwFbeXJPAyRUMNanEHQnorSnstRBcA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629066624752-v9gut2vjhlljmat2nk5r5vk3kg84lj30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

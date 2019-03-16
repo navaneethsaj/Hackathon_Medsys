@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/loginimage"
+        android:id="@+id/loginImage"
+        android:layout_centerInParent="true"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+    <EditText
+        android:gravity="center"
+        android:inputType="phone"
+        android:hint="Phone No"
+        android:layout_below="@+id/loginImage"
+        android:id="@+id/phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:gravity="center"
+        android:hint="UID"
+        android:layout_below="@+id/phone_no"
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Verify"
+        android:layout_alignParentBottom="true"
+        android:onClick="phoneVerify"
+        android:id="@+id/regButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
